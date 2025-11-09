@@ -1,0 +1,3 @@
+# CUBE id x y z side, minus side -> skip
+CUBE c1 0 0 0 2
+CUBE bad -1 0 0 -5
