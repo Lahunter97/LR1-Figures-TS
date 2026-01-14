@@ -6,3 +6,4 @@ export default function readLines(relPath: string): string[] {
   const content = readFileSync(abs, 'utf-8');
   return content.split(/\r?\n/).filter((l) => l.trim().length > 0);
 }
+

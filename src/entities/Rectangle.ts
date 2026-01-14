@@ -13,4 +13,13 @@ export default class Rectangle extends Shape {
   ) {
     super(id, name);
   }
+  
+  getPoints(): Point[] {
+    return [
+      this.p1,
+      this.p2,
+      this.p3,
+      this.p4,
+    ];
+  }
 }

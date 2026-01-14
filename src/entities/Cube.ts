@@ -10,4 +10,10 @@ export default class Cube extends Shape {
   ) {
     super(id, name);
   }
+
+  getPoints(): Point[] {
+    return [
+      this.a,
+    ];
+  }
 }
